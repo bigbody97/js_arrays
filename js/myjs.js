@@ -16,3 +16,11 @@ console.log(colorArray[1]);
 //Mixed data type array bool, int, string .
 var anythingGoes = [false, 100, "Big Body"];
 console.log(anythingGoes[0],anythingGoes[1],anythingGoes[2]);
+
+//Array methods
+var myFood = ["pizza","chips","bread"];
+//The pop method take the last item out of the array and return it as a new variable "lastItem"
+var lastItem = myFood.pop();
+console.log(lastItem);
+//When I console.log(myFood); bread is no longer in the myFood array.
+console.log(myFood);

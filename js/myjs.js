@@ -6,3 +6,9 @@ var numArray = [1,2,4,5,];
 
 var colorArray = ["red", "black","blue","green"];
 console.log(colorArray[0]);
+
+// Array element reasignment: by grabing the index [1] wich is "black" and giving it a diferant value "grey".
+
+var colorArray = ["red", "black","blue","green"];
+colorArray[1] = "grey";
+console.log(colorArray[1]);
